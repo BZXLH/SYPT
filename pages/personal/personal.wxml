@@ -1,0 +1,25 @@
+<!--pages/personal/personal.wxml-->
+<view class="personal">
+  <!-- 头像部分 -->
+  <view class="personal_top">
+    <view class="head">
+      <image></image>
+    </view>
+    <view class="name">
+      <view>冰镇西兰花</view>
+      <view>3121002650</view>
+    </view>
+  </view>
+  <!-- 功能 -->
+  <view class="use">
+    <navigator class="use_option" url="/pages/personal/editUserInfo/editUserInfo">
+      编辑个人信息
+    </navigator>
+    <navigator class="use_option">
+      实验统计
+    </navigator>
+    <navigator class="use_option" url="/pages/personal/setting/setting">
+      设置
+    </navigator>
+  </view>
+</view>

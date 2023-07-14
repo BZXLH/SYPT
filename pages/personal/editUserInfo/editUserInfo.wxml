@@ -1,0 +1,38 @@
+<!--pages/personal/editUserInfo/editUserInfo.wxml-->
+<view class="editUserInfo">
+  <view class="editUserInfo_top">
+    编辑个人信息
+    <view class="save_btn">√保存</view>
+  </view>
+  <view class="head_bg">
+    <view class="head">
+      <image></image>
+    </view>
+    <view style="margin-top: 50rpx;" class="option">
+      <view class="tag">姓名</view>
+      <input class="inp" placeholder="请填写姓名" type="text" />
+    </view>
+  </view>
+  <view class="line"></view>
+  <view class="main_bg">
+    <view class="option">
+      <view class="tag">学院</view>
+      <input class="inp" placeholder="请填写学院" type="text" />
+    </view>
+    <view class="option">
+      <view class="tag">班级</view>
+      <input class="inp" placeholder="请填写班级" type="text" />
+    </view>
+    <view class="option">
+      <view class="tag">学号</view>
+      <input class="inp" placeholder="请填写学号" type="text" />
+    </view>
+  </view>
+  <view class="line"></view>
+  <view class="bottom_bg">
+    <view class="option">
+      <view class="tag">手机号</view>
+      <input class="inp" placeholder="请填写手机号" type="text" />
+    </view>
+  </view>
+</view>

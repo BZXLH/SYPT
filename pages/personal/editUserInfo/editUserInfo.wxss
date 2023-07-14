@@ -1,0 +1,72 @@
+/* pages/personal/editUserInfo/editUserInfo.wxss */
+page {
+  background-color: rgb(235, 235, 235);
+}
+
+.editUserInfo_top {
+  position: relative;
+  height: 100rpx;
+  background-color: cadetblue;
+  color: white;
+  font-size: large;
+  line-height: 100rpx;
+  padding-left: 50rpx;
+}
+
+.save_btn {
+  position: absolute;
+  height: 100rpx;
+  color: white;
+  right: 50rpx;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.head_bg {
+  display: flow-root;
+  background-color: rgb(235, 235, 235);
+  padding: 30rpx 0 0 0;
+}
+
+.head {
+  height: 200rpx;
+  width: 200rpx;
+  border-radius: 50%;
+  background-color: white;
+  margin: auto;
+}
+
+.option {
+  position: relative;
+  height: 100rpx;
+  font-size: large;
+  line-height: 100rpx;
+}
+
+.option .tag {
+  position: absolute;
+  left: 50rpx;
+  color: gray;
+}
+
+.option .inp {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  left: 250rpx;
+}
+
+.line {
+  height: 20rpx;
+  background-color: cadetblue;
+}
+
+.main_bg {
+  background-color: rgb(235, 235, 235);
+}
+
+.bottom_bg {
+  background-color: rgb(235, 235, 235);
+}

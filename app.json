@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/experiment/experiment",
+    "pages/message/message",
+    "pages/login/login",
+    "pages/personal/personal",
+    "pages/personal/editUserInfo/editUserInfo",
+    "pages/personal/setting/setting"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#000000",
+    "navigationBarTitleText": "实验平台",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "position": "bottom",
+    "backgroundColor": "#161616",
+    "color": "#FFFFFF",
+    "selectedColor": "#07C160",
+    "list": [{
+        "text": "实验",
+        "pagePath": "pages/experiment/experiment"
+      },
+      {
+        "text": "消息",
+        "pagePath": "pages/message/message"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/personal/personal"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

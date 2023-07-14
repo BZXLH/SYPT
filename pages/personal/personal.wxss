@@ -1,0 +1,47 @@
+/* pages/personal/personal.wxss */
+.personal_top {
+  position: relative;
+  height: 200rpx;
+  border: 1rpx solid rgba(128, 128, 128, 0.521);
+  border-left: 0;
+  border-right: 0;
+}
+
+.head {
+  position: absolute;
+  height: 130rpx;
+  width: 130rpx;
+  background-color: gray;
+  border-radius: 50%;
+  left: 50rpx;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+.name {
+  position: absolute;
+  font-weight: 600;
+  height: 80rpx;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 70rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.use {
+  position: relative;
+  margin-top: 50rpx;
+  padding: 0 40rpx;
+}
+
+.use_option {
+  height: 100rpx;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+  line-height: 100rpx;
+  padding-left: 50rpx;
+}
